@@ -1,0 +1,14 @@
+This repo contains jquery.fix.clone.js, which if included will fix a couple of
+related bugs in jQuery's clone() method.
+
+Originally there were two projects, jquery.fix.textarea-clone and
+jquery.fix.select-clone. Those projects still exist, but only so that anyone
+using them doesn't end up with broken code. This project is for all clone()-
+related bugs going forwards.
+
+Usage is the same as before:
+
+<script src='.../jquery.fix.clone.js'></script>
+<!-- At this point your .clone() method will work -->
+
+And MIT license as usual.
