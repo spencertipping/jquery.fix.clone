@@ -17,7 +17,7 @@
         result_selects   = result.find('select').add(this.filter('select'));
 
     for (var i = 0, l = my_textareas.length; i < l; ++i) $(result_textareas[i]).val($(my_textareas[i]).val());
-    for (var i = 0, l = my_selects.length;   i < l; ++i) result_selects[i].selectedIndex = my_textareas[i].selectedIndex;
+    for (var i = 0, l = my_selects.length;   i < l; ++i) result_selects[i].selectedIndex = my_selects[i].selectedIndex;
 
     return result;
   };
